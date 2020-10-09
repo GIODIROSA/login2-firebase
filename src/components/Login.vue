@@ -20,7 +20,7 @@
           type="password"
           placeholder="Contraseña"
         />
-        <input type="submit" value="Acceder" />
+        <input class="btnLogin" type="submit" value="Acceder" />
       </form>
     </div>
     <!-- final section login -->
@@ -81,10 +81,18 @@ form {
     border: 0;
     margin: 10px 0;
   }
-  .contrasena{
+  .contrasena {
     padding: 10px 0px;
     border: 0;
     margin: 10px 0;
+  }
+  .btnLogin{
+    padding: 10px;
+    margin: 10px 0;
+    border: 0px;
+    background-color: #45625d;
+    color: aliceblue;
+    border-radius: 5px;
   }
 }
 .imgLogin {

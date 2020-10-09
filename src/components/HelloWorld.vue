@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
+    
     <h1>{{ msg }}</h1>
+    
     <a href="#" @click="logOut">Logout</a>
   </div>
 </template>
