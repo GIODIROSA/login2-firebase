@@ -2,7 +2,6 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <a href="#" @click="logOut">Logout</a>
- 
   </div>
 </template>
 
@@ -36,6 +35,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #ceffe9;
 }
 </style>
